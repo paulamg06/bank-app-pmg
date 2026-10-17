@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+    background-color: #212121;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4B94E2;
+}
+
+div, p {
+    margin: 20px;
+}
+
+.movimientos {
+  margin: 5px 0;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+/* .movimientos:hover {
+    background: #4B94E2;
+    box-shadow: 0 0 10px 5px #008eecd0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+} */
+
+.fecha_movimientos {
+    color: #4B94E2;
+    padding: 5px 0;
+    margin: 0 0;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(
+        90deg,
+        #247CDB, #C2DBF5
+    ) 1;
+}
+header.fecha_movimientos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header.fecha_movimientos h2 {
+    margin: 0;
+}
+header.fecha_movimientos p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.gasto {
+    color: #E24E4B;
+}
+.ingreso {
+    color: #aae99d;
+}

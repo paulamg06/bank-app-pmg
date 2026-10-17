@@ -1,0 +1,9 @@
+.tabla-cuentas {
+    width: 100%;
+}
+tr.tabla-cuentas {
+    text-align: center;
+}
+td.tabla-cuentas {
+    text-align: center;
+}
