@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 
 // URL donde se exponen las APIs del backend
 export const api = axios.create({
-    baseURL: "/api",
+    baseURL: "http://localhost:8000/",
     withCredentials: true,
 })
 
